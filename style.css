@@ -141,7 +141,8 @@ body{
   margin-top: -59px;
 }
 .icon-ava1{
-
+ height: 28px;
+ width: 45px;
   margin-top: -59px;
 }
 .fet-doc-bod h6{
@@ -154,15 +155,14 @@ body{
  text-decoration: none;
 }
 .fet-doc-bod{
-  /* margin-left: -30px; */
-  padding-left: -30px
+
 
 }
 .bac-fet-doc{
   background: white;
 padding-top: 25px;
   padding-bottom: 15px;
-  margin-top: -25px;
+  /* margin-top: -25px; */
 }
 .bac-fet-doc-unactive{
   background: #f0f0f0;
@@ -178,4 +178,94 @@ padding-top: 25px;
 }
 .more{
   color: gray;
+}
+.content-feature{
+  padding-bottom: 35px;
+}
+.content-app{
+  background: #dbdbdb;
+}
+.header-app{
+  text-align: center;
+  padding-top: 25px;
+}
+.mobilescreen{
+  width: 100%;
+}
+.link-app{
+  text-align: center;
+  padding-top: 75px;
+}
+
+
+.header-team{
+  text-align: center;
+}
+.content-team{
+  text-align: center;
+}
+.person-team{
+  width: 30%;
+  border-style: 5px sloid #cc0000;
+  border-radius: 50%;
+  margin-left: 25px;
+}
+
+.body-team{
+  background: #f1f1f1;
+  border-style: 1px solid #f1f1f1;
+  width: 43%;
+text-align: center;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+@media only screen  and (max-width: 600px){
+  .body-team{
+    margin-left: 40px;
+    width: 79%;
+  }
+}
+.name-pers-team{
+  font-weight: bold;
+
+}
+
+.link-team a{
+ margin-left: 48%;
+ color: #4a4a4a;
+ margin-bottom: 25px;
+}
+.team{
+  margin-bottom: 25px;
+}
+.patient{
+  background: #dbdbdb;
+}
+.header-patient{
+  padding-top: 75px;
+  text-align: center;
+}
+.header-patient h3{
+  color: #cc0000;
+}
+
+.patient-img{
+  width: 100px;
+height: 100px;
+border-radius: 50%;
+border-style: 22px solid #cc0000;
+margin-top: 65px;
+
+}
+
+.content-patient{
+  border-style: 1px solid;
+  border-radius: 10px;
+  background: white;
+  margin-left: 25px;
+}
+
+.content-body-patient{
+  display: flex;
+  padding-left: 75px;
 }
