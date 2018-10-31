@@ -1,0 +1,181 @@
+
+.logo{
+  width:"277px";
+   height:"67px";
+}
+
+body{
+  padding: 0px;
+}
+
+.img-help{
+  width: 100%;
+}
+
+.bg-img{
+  background-image: url("./images/1.png");
+}
+.img-carton{
+  width: 100%
+  height:100%;
+}
+.body-qu-help{
+  width: 100%;
+}
+.body-qu-help{
+  margin-top: 65px;
+  margin-left: 20px;
+}
+.cont-1{
+  font-weight: bold;
+  position: absolute;
+  top: 28%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+.cont-2{
+  font-weight: bold;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen  and (max-width: 600px){
+  .cont-1{
+    font-size: 11px;
+    top:35%;
+    left:56%;
+  }
+  .cont-2{
+    font-size: 11px;
+    top:47%;
+    left:54%;
+  }
+}
+
+.form-appoit{
+  background: #f4f4f4;
+  height: 100px;
+}
+.form-appoit-cont{
+  background: #ffffff;
+  border-style:  solid 1px #f4f4f4;
+  border-radius: 5px;
+  margin-top: -95px;
+
+}
+.form-control{
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+}
+.cont-wat{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.btn-appoit {
+  float: right;
+}
+.img-wait{
+
+  padding-top: 50px;
+}
+.skip-wait{
+  border: solid 1px #ED4C5F;
+  border-radius: 50%;
+  background:#ED4C5F;
+  height: 310px;
+}
+.cost-visit{
+  border: solid 1px #41D0FB;
+  border-radius: 50%;
+  background:#41D0FB;
+  height: 310px;
+}
+
+.img-wallet{
+    padding-top: 50px;
+}
+.ifo-doc{
+  border: solid 1px #7ED321;
+  border-radius: 50%;
+  background:#7ED321;
+  height: 310px;
+}
+.img-doc-ic{
+  padding-top: 50px;
+}
+.carton-cont{
+  margin-top: -42.8%;
+}
+.img-carton{
+  width: 100%;
+}
+
+.fet-doc{
+  background: #F5A623;
+}
+.fet-doc h2{
+  text-align: center;
+  color: white;
+  margin-top: 25px;
+}
+.fet-doc a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  float: right;
+  margin-top: -35px;
+  padding-right: 25px;
+}
+.doctor-1{
+  width: 100%;
+}
+/* .fet-doc-bod .container{
+  margin-top: -35px;
+  margin-left: 15px;
+} */
+.icon-ava{
+  margin-left: 75px;
+  margin-top: -59px;
+}
+.icon-ava1{
+
+  margin-top: -59px;
+}
+.fet-doc-bod h6{
+ text-align: center;
+}
+.fet-doc-bod p{
+ text-align: center;
+}
+.fet-doc-bod  a{
+ text-decoration: none;
+}
+.fet-doc-bod{
+  /* margin-left: -30px; */
+  padding-left: -30px
+
+}
+.bac-fet-doc{
+  background: white;
+padding-top: 25px;
+  padding-bottom: 15px;
+  margin-top: -25px;
+}
+.bac-fet-doc-unactive{
+  background: #f0f0f0;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom:54px;
+}
+.fet-doc-bod-unactive{
+  text-align: center;
+}
+.available{
+  color: green;
+}
+.more{
+  color: gray;
+}
