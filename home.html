@@ -7,15 +7,53 @@
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
    <link rel="stylesheet" href="style.css">
    <!-- <link rel="stylesheet" href="responsive.css"> -->
     <title>Doctors</title>
   </head>
   <body>
+   <!-- start navbar -->
+   <ul class="nav justify-content-end first-nav">
+     <li class="nav-item">
+       <a class="nav-link" href="#">
+         <img src="./images/phone.png" alt="">
+         <span class="phone-num">1-800-652-5580</span>
+       </a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#"></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#"></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Signin</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link " href="#">Signup</a>
+     </li>
+   </ul>
+   <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <img src="./images/logo.png" alt="" class="my-0 mr-md-auto font-weight-normal logo">
+
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#">Home</a>
+        <a class="p-2 text-dark" href="#">Browse Doctors</a>
+        <a class="p-2 text-dark" href="#">Services</a>
+        <a class="p-2 text-dark" href="#">How It Works</a>
+        <a class="p-2 text-dark" href="#">About Us</a>
+        <a class="p-2 text-dark" href="#">FAQs</a>
+      </nav>
+
+    </div>
+   <!-- End navbar -->
+
+
 
   <!-- start information about help  -->
-  <div class="row">
+  <div class="row inf-help">
     <div class="col bg-img">
      <div class="container ">
        <div class="row">
@@ -71,7 +109,7 @@
 </div>
 
 <!-- information about the waiting -->
-<div class="container">
+<div class="container info-wat">
   <div class="row cont-wat">
     <div class="col-md-4 col-sm-6">
       <div class="skip-wait">
@@ -117,60 +155,102 @@
     <h2>FEATURED DOCTORS</h2>
     <span><a href="#">View All</a></span>
   </div>
-  <div class=" card-group content-feature">
-    <div class=" card fet-doc-bod">
-      <img src="./images/doctor-1.jpg" alt="" class="doctor-1">
-      <!-- <img src="./images/4.png" alt="" class="icon-ava">
-      <img src="./images/6.png" alt="" class="icon-ava1">
-      <img src="./images/5.png" alt="" class="icon-ava1"> -->
-      <div class="bac-fet-doc">
-        <div class="container row">
-          <div class="col-12">
-            <div class="card-deck">
-               <img src="./images/4.png" alt="" class="icon-ava1 card">
-               <img src="./images/6.png" alt="" class="icon-ava1 card">
-               <img src="./images/5.png" alt="" class="icon-ava1 card">
-            </div>
-          </div>
-        </div>
 
-        <h6>DR. Sami Aasar MD</h6>
-        <p>Cardiology | Fishers, U.S</p>
-        <p>More...></p>
-        <p class="available">Available Now</p>
-      </div>
-    </div>
-    <div class=" card fet-doc-bod-unactive">
-      <img src="./images/doctor-1.jpg" alt="" class="doctor-1">
-      <div class="bac-fet-doc-unactive">
-        <h6>DR. Sami Aasar MD</h6>
-        <p>Cardiology | Fishers, U.S</p>
-        <p>More ...</p>
-      </div>
-
-    </div>
-    <div class=" card fet-doc-bod">
-      <img src="./images/doctor-1.jpg" alt="" class="doctor-1">
-      <!-- <img src="./images/4.png" alt="" class="icon-ava">
-      <img src="./images/6.png" alt="" class="icon-ava1">
-      <img src="./images/5.png" alt="" class="icon-ava1"> -->
-      <div class="bac-fet-doc">
-        <h6>DR. Sami Aasar MD</h6>
-        <p>Cardiology | Fishers, U.S</p>
-        <p href="#">More...</p>
-        <p class="available">Available Now</p>
-      </div>
-    </div>
-    <div class=" card fet-doc-bod-unactive ">
-      <img src="./images/doctor-1.jpg" alt="" class="doctor-1">
-      <div class="bac-fet-doc-unactive">
-        <h6>DR. Sami Aasar MD</h6>
-        <p>Cardiology | Fishers, U.S</p>
-        <p href="#">More...</p>
-      </div>
-    </div>
-  </div>
 </div>
+<div class="card-group">
+
+  <!-- first card  -->
+  <div class="card">
+     <img class="card-img-top" src="./images/doctor-1.jpg" alt="Card image cap">
+     <div class="card-body">
+       <img src="./images/4.png" alt="" class="icon-ava">
+       <img src="./images/6.png" alt=""class="icon-ava1">
+       <img src="./images/5.png" alt="" class="icon-ava1">
+      <h5 class="card-title card-header-feature">DR. Sami Aasar MD</h5>
+
+       <p class="card-text card-text-feature">Cardiology | Fishers, U.S</p>
+       <p class="card-text card-text-feature">
+         <i class="fas fa-star star-active"></i>
+         <i class="fas fa-star star-active"></i>
+         <i class="fas fa-star star-active"></i>
+         <i class="fas fa-star star-active"></i>
+         <i class="far fa-star"></i>
+       </p>
+       <p class="card-text card-text-feature">More...</p>
+       <p class="card-text available card-text-feature">Available Now</p>
+     </div>
+  </div>
+  <!-- End Fisrst card -->
+  <!-- Second card -->
+  <div class="card">
+     <img class="card-img-top" src="./images/doctor-1.jpg" alt="Card image cap">
+     <div class="card-body card-body-unvai">
+
+       <p>
+         <i class="connect-ava"></i>
+       </p>
+       <h5 class="card-title card-header-feature">DR. Sami Aasar MD</h5>
+
+        <p class="card-text card-text-feature">Cardiology | Fishers, U.S</p>
+        <p class="card-text card-text-feature">
+          <i class="fas fa-star star-active"></i>
+          <i class="fas fa-star star-active"></i>
+          <i class="fas fa-star star-active"></i>
+          <i class="far fa-star "></i>
+          <i class="far fa-star"></i>
+        </p>
+        <p class="card-text card-text-feature">More...</p>
+     </div>
+  </div>
+  <!-- End Second card -->
+  <!-- third card -->
+  <div class="card">
+     <img class="card-img-top" src="./images/doctor-1.jpg" alt="Card image cap">
+     <div class="card-body ">
+       <img src="./images/4.png" alt="" class="icon-ava">
+       <img src="./images/6.png" alt=""class="icon-ava1">
+       <img src="./images/5.png" alt="" class="icon-ava1">
+       <h5 class="card-title card-header-feature">DR. Sami Aasar MD</h5>
+
+        <p class="card-text card-text-feature">Cardiology | Fishers, U.S</p>
+        <p class="card-text card-text-feature">
+          <i class="fas fa-star star-active"></i>
+          <i class="fas fa-star star-active"></i>
+          <i class="fas fa-star star-active"></i>
+          <i class="fas fa-star star-active"></i>
+          <i class="fas fa-star star-active"></i>
+        </p>
+        <p class="card-text card-text-feature">More...</p>
+        <p class="card-text available card-text-feature">Available Now</p>
+     </div>
+  </div>
+  <!-- End third card -->
+  <!-- fourth card -->
+  <div class="card">
+     <img class="card-img-top" src="./images/doctor-1.jpg" alt="Card image cap">
+     <div class="card-body  card-body-unvai">
+       <h5 class="card-title card-header-feature">DR. Sami Aasar MD</h5>
+
+        <p class="card-text card-text-feature">Cardiology | Fishers, U.S</p>
+        <p class="card-text card-text-feature">
+          <i class="fas fa-star star-active"></i>
+          <i class="fas fa-star star-active"></i>
+          <i class="fas fa-star star-active"></i>
+          <i class="fas fa-star star-active"></i>
+          <i class="far fa-star"></i>
+        </p>
+        <p class="card-text card-text-feature">More...</p>
+
+     </div>
+  </div>
+  <!-- end fourth card -->
+<div>
+  <div class="row  fet-doc1">
+    <div class="col-12 ">
+
+    </div>
+
+  </div>
 <!-- end Featured docotor -->
 <!-- link web site in smartphone -->
 <div class="row content-app">
@@ -188,6 +268,10 @@
        <p>speak to a doctor</p>
        <p>24/7,Anytime,Anywhere</p>
        <p>Search for "Drs On Calls "</p>
+       <p>
+         <img src="./images/app.png" alt="" class="app-store">
+         <img src="./images/app.png" alt="" class="app-store">
+       </p>
        <img src="" alt="">
      </div>
    </div>
@@ -249,7 +333,7 @@
     </div>
   </div>
   <div class="  row">
-    <div class="col-5 content-body-patient">
+    <div class="col-lg-5  col-sm-12 col-xs-12 content-body-patient">
          <img src="./images/mary.jpg" alt="" class="patient-img">
            <div class="content-patient">
              <p style="padding:25px; padding-bottom:0px">Since the times the pediatricians at this clinic were able to put
@@ -262,7 +346,7 @@
                </p>
            </div>
     </div>
-    <div class="col-5 content-body-patient">
+    <div class="col-lg-5 col-sm-12 col-xs-12 content-body-patient">
          <img src="./images/mary.jpg" alt="" class="patient-img">
            <div class="content-patient">
              <p style="padding:25px; padding-bottom:0px">Since the times the pediatricians at this clinic were able to put
@@ -274,10 +358,165 @@
                  Henry William
                </p>
            </div>
+    </div>
+    <div class="col-10"><br>
+      <a href="#" class="link-patient">View All</a>
     </div>
 </div>
 <!--End Our Patients -->
 
 
+<!-- start icon companies -->
+<div class="row content-companies">
+  <div class="col-12 ">
+    <ul class="nav  justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img src="./images/cozi.png" alt="">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img src="./images/fox.png" alt="">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img src="./images/cnn.png" alt="">
+          </a>
+        </li>
+
+    </ul>
+  </div>
+</div>
+<!-- End icon companies -->
+<!-- latest news -->
+<div class="row latestnews">
+  <div class="col-12">
+    <p class="header-news">Latest News</p>
+  </div>
+  <!-- start card news -->
+  <div class="container row letest-new-cont">
+    <div class="card-deck">
+      <div class="card">
+       <img class="card-img-top" src="./images/7.png" alt="Card image cap">
+       <div class="card-body">
+         <h6 class="card-title">Blue Cross Blue Shield of Georgia to No...</h6>
+         <p class="card-text card-news">
+           ALBANY, GA (WALB) - Many healthcare insurance companies have made a major change to their hospital emergency room..
+
+          </p>
+          <button type="button" name="button "class="btn btn-default btn-news">Read More..</button>
+       </div>
+      </div>
+      <div class="card">
+       <img class="card-img-top" src="./images/8.png" alt="Card image cap">
+       <div class="card-body">
+         <h6 class="card-title">The Massive Benefits of Tele-Psych…</h6>
+         <p class="card-text card-news">
+           With a decline in providers and an increase
+           in demand, the need for supplementary psychiatric services has never been clearer.
+          </p>
+          <button type="button" name="button "class="btn btn-default btn-news">Read More..</button>
+       </div>
+      </div>
+      <div class="card">
+       <img class="card-img-top" src="./images/9.png" alt="Card image cap">
+       <div class="card-body">
+         <h6 class="card-title">The Massive Benefits of Tele-Psych…</h6>
+         <p class="card-text card-news">
+           A new study published in the Annals of  Medicine found that patients who were offered primary care telemedicine during…
+         </p>
+          <button type="button" name="button "class="btn btn-default btn-news">Read More..</button>
+       </div>
+      </div>
+   </div>
+  </div>
+  <!-- End card news -->
+  <div class="col-12 link-news">
+    <a href="#">View All</a>
+  </div>
+</div>
+<!-- End latest news  -->
+<footer class=" footer">
+  <div class=" row">
+    <div class="col-lg-3 col-sm-6 logo-footer">
+      <img src="./images/logo.png" alt="">
+    </div>
+    <div class="col-lg-3 col-sm-6 que-footer">
+     <ul class="nav">
+       <li class="nav-item">
+         <a class="nav-link" href="#">
+           Have a Question?
+         </a>
+       </li>
+      <ul>
+    </div>
+    <div class="col-lg-6 col-sm-12 nav-footer">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Feedback</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- second row in footer -->
+  <div class="row">
+
+    <div class="col-6">
+      <span class="img-phone">
+        <img src="./images/phone.png" alt="" class="">
+       <span class="phone-num-footer">1-800-652-5580</span>
+      </span>
+
+    </div>
+    <div class="col-6">
+      <p class="info-patient-footer">Patient Treated</p>
+      <p class="info-patient-footer">828</p>
+    </div>
+  </div>
+  <!-- End second Row in footer -->
+  <!-- third row in footer -->
+  <div class="row">
+    <div class="col-12">
+       <span class="social">Folow us</span>
+       <img src="./images/facebook.png" alt="" class="logo-face">
+       <img src="./images/twitter-logo.png" alt="" class="logo-face">
+       <img src="./images/youtube.jpg" alt="" class="logo-face">
+       <span class="mail-fot">
+         <i class="fal fa-envelope mail"></i>
+         <a href="#">support@drsoncalls.com</a>
+       </span>
+    </div>
+
+  </div>
+  <!-- end third row in footer -->
+  <!-- start fourth footer -->
+  <div class="row">
+    <div class="col-6">
+      <p style="color:white; margin-top:25px;">Copyright © 2018 DrsonCalls</p>
+    </div>
+    <div class="col-6">
+      <span style="padding-right:15px; color:white; float:right;">Consent Policy</span>
+      <span  style="padding-right:15px; color:white; float:right;">Terms of Use</span>
+      <span  style="padding-right:15px; color:white;  float:right;">Privacy Statement</span>
+    </div>
+  </div>
+  <!-- end fourth footer -->
+</footer>
   </body>
 </html>
