@@ -319,6 +319,7 @@ background-image: url('./images/6.png');
 }
 .content-app{
   background: #dbdbdb;
+  padding-left: 60px;
 }
 .header-app{
   text-align: center;
@@ -426,7 +427,20 @@ margin-top: 65px;
   margin-top: 40px;
 }
 .letest-new-cont{
-  margin-left: 55px;
+   margin-left: 120px;
+
+}
+@media only screen  and (max-width: 900px){
+  .letest-new-cont{
+     margin-left: 40px;
+
+  }
+}
+@media only screen  and (max-width: 600px){
+  .letest-new-cont{
+     margin-left: 10px;
+
+  }
 }
 .card-text{
 /* margin-bottom: -8px; */
